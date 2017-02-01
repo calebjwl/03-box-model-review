@@ -11,3 +11,80 @@ ul {
 * {
   box-sizing: border-box;
 }
+
+img {
+  max-width: 100%;
+}
+
+p {
+  color: rgba(156,156,156,.92);
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+
+strong {
+  color: black;
+}
+
+/* GRID + general layout */
+
+.section {
+  /*background: yellow;*/
+  padding: 7rem;
+}
+
+.container{
+  /*background: green;*/
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.grid {
+  /*background: red;*/
+  overflow: auto;
+  margin-top: -7rem;
+}
+
+.grid__item {
+  /*background: blue;*/
+  width: calc(100% / 3 - 1rem - 1rem);
+  margin: 1rem;
+  border-bottom: rgb(214,214,214) 0.1rem solid;
+  float: left;
+}
+
+.display {
+  margin: 0;
+}
+
+.display__image {
+  margin: 0;
+  border: rgb(214,214,214) 0.1rem solid;
+}
+
+.display__caption {
+  margin: 0.2rem;
+  overflow: auto;
+}
+
+.caption__number {
+  margin: 0;
+  float: left;
+}
+
+.caption__right{
+  margin: 0rem;
+  float: right;
+}
+
+.caption__title {
+  float: right;
+  margin: 0;
+}
+
+.caption__avatar {
+  margin-left: 0.5rem;
+  width: 1.3rem;
+  float: right;
+  border-radius: 0.3rem;
+}
